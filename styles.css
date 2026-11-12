@@ -1377,6 +1377,9 @@ footer {
         box-sizing: border-box;
     }
 
+    .contactinfo div:first-child p {
+        flex-wrap: wrap;
+    }
     .contactinfor {
         width: 100%;
     }
