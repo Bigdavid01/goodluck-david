@@ -1377,11 +1377,12 @@ footer {
         box-sizing: border-box;
     }
 
-    .contactinfo div:first-child p {
-        flex-wrap: wrap;
-    }
+
     .contactinfor {
         width: 100%;
+    }
+    .infor {
+        padding-left: 15px;
     }
 
     .socials1 {
@@ -1436,3 +1437,18 @@ footer {
     }
 
 }   
+.aura-p-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00ff88;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.aura-p-link:hover {
+    background: white;
+    transform: translateY(-3px);
+}
